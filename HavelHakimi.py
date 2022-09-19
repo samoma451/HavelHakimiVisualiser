@@ -41,7 +41,7 @@ def create_graph(degreeRecord):
 
     for g in range(0, len(graphs)):
         plt.figure(g + 1)
-        nodePos = nx.spring_layout(graphs[-g-1])
+        nodePos = nx.spring_layout(graphs[-g-1])#issue with layout here, how to keep consist node positioning between graphs?
         nx.draw(graphs[-g-1],with_labels=True,pos=nodePos)
     plt.show()
 
