@@ -5,12 +5,9 @@ import matplotlib.pyplot as plt  # used for plotting our graph, could be used to
 
 
 def run_algorithm(dSeq):
-    """ This function runs the Havel-Hakimi algorithm, which determines if a degree sequence is graphical.
-    If the sequence is graphical, then the create_graph() function is called. Otherwise a new window informs
-    the user that the sequence is not graphical.
-
-    :param dSeq The degree sequence of the graph to run the algorithm on:
-    :return:
+    """ This function runs the Havel-Hakimi algorithm, which determines if a degree sequence (input parameter dSeq)
+     is graphical. If the sequence is graphical, then the create_graph() function is called and a new window informs the user.
+     Otherwise a new window informs the user that the sequence is not graphical.
     """
     degreeRecord = []
     for i in range(0, len(dSeq) - 1):
