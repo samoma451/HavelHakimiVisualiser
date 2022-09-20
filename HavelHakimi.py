@@ -1,3 +1,4 @@
+import tkinter
 from tkinter import *  # tkinter used to make new windows
 import networkx as nx  # library used for creating and drawing graphs
 import matplotlib.pyplot as plt  # used for plotting our graph, could be used to change axes, include subplots, etc.
